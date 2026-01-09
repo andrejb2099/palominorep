@@ -240,5 +240,93 @@ footer p {
     
   }
   
-  
+  /* =========================
+   RESPONSIVO – CELULAR
+   ========================= */
+@media (max-width: 768px) {
+
+  /* NAV */
+  nav {
+    flex-direction: column;
+    padding-top: 15px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav ul a {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+
+  /* BANNER */
+  .banner .banner-text {
+    margin: 40px 15px;
+    padding: 0 10px;
+  }
+
+  .banner .banner-text h1 {
+    font-size: 42px;
+  }
+
+  .banner .banner-text p {
+    font-size: 18px;
+  }
+
+  /* BOTÃO */
+  .btn,
+  button {
+    padding: 12px 18px;
+    font-size: 16px;
+  }
+
+  /* VIDEOS */
+  .videos .container {
+    flex-direction: column;
+  }
+
+  .videos .videos-text,
+  .videos .videos-img {
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+  .videos .videos-text h3 {
+    font-size: 32px;
+  }
+
+  /* SOBRE */
+  .sobre .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sobre .sobre-text {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .sobre .sobre-img {
+    width: 60%;
+    margin-top: 20px;
+  }
+
+  /* CLIENTES */
+  .clientes .container div {
+    padding: 30px;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  /* FOOTER */
+  footer {
+    flex-direction: column;
+  }
+
+  footer a {
+    margin: 10px 0;
+  }
+}
   
